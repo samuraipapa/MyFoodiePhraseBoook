@@ -12,6 +12,12 @@
 		D58B24B91CAD633C00CB4E77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58B24B71CAD633C00CB4E77 /* Main.storyboard */; };
 		D58B24BB1CAD633C00CB4E77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58B24BA1CAD633C00CB4E77 /* Assets.xcassets */; };
 		D58B24BE1CAD633C00CB4E77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58B24BC1CAD633C00CB4E77 /* LaunchScreen.storyboard */; };
+		E8E1A3201CAE0C5C00F440E2 /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E1A31F1CAE0C5C00F440E2 /* WordsTableViewController.swift */; };
+		E8E1A3221CAE0C7800F440E2 /* AllTranslations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E1A3211CAE0C7800F440E2 /* AllTranslations.swift */; };
+		E8E1A3241CAE0C9400F440E2 /* SingleDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E1A3231CAE0C9400F440E2 /* SingleDayViewController.swift */; };
+		E8E1A3261CAE0CB900F440E2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E1A3251CAE0CB900F440E2 /* DetailViewController.swift */; };
+		E8E1A3281CAE1E3E00F440E2 /* SaltObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E1A3271CAE1E3E00F440E2 /* SaltObject.swift */; };
+		E8E1A32A1CAE1E6700F440E2 /* SelectionGlobalObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E1A3291CAE1E6700F440E2 /* SelectionGlobalObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		D58B24BA1CAD633C00CB4E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D58B24BD1CAD633C00CB4E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D58B24BF1CAD633C00CB4E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E1A31F1CAE0C5C00F440E2 /* WordsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
+		E8E1A3211CAE0C7800F440E2 /* AllTranslations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllTranslations.swift; sourceTree = "<group>"; };
+		E8E1A3231CAE0C9400F440E2 /* SingleDayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleDayViewController.swift; sourceTree = "<group>"; };
+		E8E1A3251CAE0CB900F440E2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E8E1A3271CAE1E3E00F440E2 /* SaltObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaltObject.swift; sourceTree = "<group>"; };
+		E8E1A3291CAE1E6700F440E2 /* SelectionGlobalObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionGlobalObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,12 @@
 		D58B24A71CAD633C00CB4E77 = {
 			isa = PBXGroup;
 			children = (
+				E8E1A31F1CAE0C5C00F440E2 /* WordsTableViewController.swift */,
+				E8E1A3291CAE1E6700F440E2 /* SelectionGlobalObject.swift */,
+				E8E1A3211CAE0C7800F440E2 /* AllTranslations.swift */,
+				E8E1A3271CAE1E3E00F440E2 /* SaltObject.swift */,
+				E8E1A3231CAE0C9400F440E2 /* SingleDayViewController.swift */,
+				E8E1A3251CAE0CB900F440E2 /* DetailViewController.swift */,
 				D58B24B21CAD633C00CB4E77 /* MyFoodiePhraseBoook */,
 				D58B24B11CAD633C00CB4E77 /* Products */,
 			);
@@ -137,6 +155,12 @@
 			files = (
 				D58B24B61CAD633C00CB4E77 /* ViewController.swift in Sources */,
 				D58B24B41CAD633C00CB4E77 /* AppDelegate.swift in Sources */,
+				E8E1A3201CAE0C5C00F440E2 /* WordsTableViewController.swift in Sources */,
+				E8E1A3261CAE0CB900F440E2 /* DetailViewController.swift in Sources */,
+				E8E1A32A1CAE1E6700F440E2 /* SelectionGlobalObject.swift in Sources */,
+				E8E1A3281CAE1E3E00F440E2 /* SaltObject.swift in Sources */,
+				E8E1A3221CAE0C7800F440E2 /* AllTranslations.swift in Sources */,
+				E8E1A3241CAE0C9400F440E2 /* SingleDayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +310,7 @@
 				D58B24C41CAD633C00CB4E77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

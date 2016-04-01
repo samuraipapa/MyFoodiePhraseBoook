@@ -8,13 +8,13 @@
         <!--Words-->
         <scene sceneID="OFc-Lw-8BR">
             <objects>
-                <tableViewController id="kc4-WK-xC3" userLabel="Words" sceneMemberID="viewController">
+                <tableViewController id="kc4-WK-xC3" userLabel="Words" customClass="WordsTableViewController" customModule="MyFoodiePhraseBoook" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="twv-kj-Rh7">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="f6G-f6-mTd">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Basic" id="f6G-f6-mTd">
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="f6G-f6-mTd" id="UpA-YO-HQM">
@@ -40,13 +40,13 @@
         <!--AllTranslations-->
         <scene sceneID="tEU-dv-pbt">
             <objects>
-                <tableViewController id="IUh-oc-Aao" userLabel="AllTranslations" sceneMemberID="viewController">
+                <tableViewController id="IUh-oc-Aao" userLabel="AllTranslations" customClass="AllTranslations" customModule="MyFoodiePhraseBoook" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="yuV-ue-Xf3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="puh-76-15N">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Basic" id="puh-76-15N">
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="puh-76-15N" id="0Ud-Hn-gsP">
@@ -71,13 +71,13 @@
         <!--Single Day-->
         <scene sceneID="sRW-64-NIl">
             <objects>
-                <tableViewController id="577-Jg-PbB" userLabel="Single Day" sceneMemberID="viewController">
+                <tableViewController id="577-Jg-PbB" userLabel="Single Day" customClass="SingleDay" customModule="MyFoodiePhraseBoook" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="cEI-uX-vpV">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="3UN-fu-9vo">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Basic" id="3UN-fu-9vo">
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3UN-fu-9vo" id="XO6-HV-Mi3">
@@ -102,7 +102,7 @@
         <!--Detail-->
         <scene sceneID="n3J-RV-A76">
             <objects>
-                <viewController id="lED-mo-yMQ" userLabel="Detail" sceneMemberID="viewController">
+                <viewController id="lED-mo-yMQ" userLabel="Detail" customClass="DetailViewController" customModule="MyFoodiePhraseBoook" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RQ4-LH-X8S"/>
                         <viewControllerLayoutGuide type="bottom" id="gai-c1-s90"/>
